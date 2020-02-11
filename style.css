@@ -1,15 +1,19 @@
-h1 {
-    color: #111;
+h1 { 
+    color:rgb(136, 3, 54) ;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    font-size: 100px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    width: 300px;
+    height: 150px;
+    background-image: url(https://media.giphy.com/media/3ov9jT8yykyY31VZ4I/giphy.gif);
 }
 
 p {
-    color: #685206;
+    
+    color: magenta;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -19,22 +23,27 @@ p {
 }
 
 textarea {
-    margin: 20px;
+    margin: 90px;
     width: 300px;
     height: 150px;
 }
 
 ul, ol {
+    table-layout: auto;
+    background-image:url(https://media0.giphy.com/media/XHectgRWPGAgTbUILu/giphy.gif) ;
+    color: white;
     margin: 20px;
     padding: 0;
 }
 
 li {
+    color: orange;
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 1px solid #ccc;
 }
    
 li:last-child {
+    color: yellow;
     border: none;
 }
 
@@ -47,6 +56,30 @@ form {
 }
     
 input, textarea {
+    color: green;
     padding:5px;
     margin:5px
 }
+
+body{ background-image: url(https://media.giphy.com/media/icJ4EjP2lPKUFuEbqp/giphy.gif);}
+table{
+    border-collapse: collapse;
+  }
+  
+  p, h1, form {
+    border: 1px brown;
+  }
+
+  #color  {
+    width: 300px;
+    height: 200px;
+    background: red;
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove {
+    20% {background-color: blue;
+    }
+  }
+
+ #hi{background-image: url(https://media0.giphy.com/media/XHectgRWPGAgTbUILu/giphy.gif);}
